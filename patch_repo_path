@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-sed -i 's:github.com/OpenZWave:github.com/ChristianKuehnel:g' Makefile
-sed -i 's:github.com/OpenZWave:github.com/ChristianKuehnel:g' *.py 
-sed -i 's:github.com/OpenZWave:github.com/ChristianKuehnel:g' src-api/openzwave/*.py
+sed -i 's:github.com/OpenZWave:github.com/ChristianKuehnel:g' Makefile *.py src-api/openzwave/*.py
+sed -i 's:githubusercontent.com/OpenZWave:githubusercontent.com/ChristianKuehnel:g' Makefile *.py src-api/openzwave/*.py
+
 
