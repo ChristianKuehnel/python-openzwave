@@ -3,7 +3,7 @@
 .. module:: openzwave.controller
 .. _openzwaveController:
 
-This file is part of **python-openzwave** project https://github.com/OpenZWave/python-openzwave.
+This file is part of **python-openzwave** project https://github.com/ChristianKuehnel/python-openzwave.
     :platform: Unix, Windows, MacOS X
     :sinopsis: openzwave API
 
@@ -1363,7 +1363,7 @@ class ZWaveController(ZWaveObject):
         logger.info(u'Update_ozw_config from github.')
         dest = tempfile.mkdtemp()
         dest_file = os.path.join(dest, 'open-zwave.zip')
-        req = urlopen('https://codeload.github.com/OpenZWave/open-zwave/zip/master')
+        req = urlopen('https://codeload.github.com/ChristianKuehnel/open-zwave/zip/master')
         with open(dest_file, 'wb') as f:
             f.write(req.read())
         zip_ref = zipfile.ZipFile(dest_file, 'r')
