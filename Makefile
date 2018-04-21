@@ -281,10 +281,10 @@ src-lib/libopenzwave/libopenzwave.cpp: openzwave/.lib/
 	${PYTHON_EXEC} setup-lib.py build --flavor=dev
 
 openzwave:
-	git clone git://github.com/OpenZWave/open-zwave.git openzwave
+	git clone git://github.com/ChristianKuehnel/open-zwave.git openzwave
 
 openzwave.gzip:
-	wget --no-check-certificate https://codeload.github.com/OpenZWave/open-zwave/zip/master
+	wget --no-check-certificate https://codeload.github.com/ChristianKuehnel/open-zwave/zip/master
 	mv master open-zwave-master.zip
 	unzip open-zwave-master.zip
 	mv open-zwave-master openzwave
