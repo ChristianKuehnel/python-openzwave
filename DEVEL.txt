@@ -7,7 +7,7 @@ How to develop for python-openzwave
 
 Get the sources
 
-   git clone https://github.com/OpenZWave/python-openzwave
+   git clone https://github.com/ChristianKuehnel/python-openzwave
 
 You can install all the dependances to develop for python-openzwave
 using the command :

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-This file is part of **python-openzwave** project https://github.com/OpenZWave/python-openzwave.
+This file is part of **python-openzwave** project https://github.com/ChristianKuehnel/python-openzwave.
     :platform: Unix, Windows, MacOS X
 
 .. moduleauthor:: bibi21000 aka Sébastien GALLET <bibi21000@gmail.com>
@@ -49,7 +49,7 @@ setup(
   author_email='bibi21000@gmail.com',
   version = pyozw_version,
   zip_safe = False,
-  url='https://github.com/OpenZWave/python-openzwave',
+  url='https://github.com/ChristianKuehnel/python-openzwave',
   cmdclass = {
         'build_ext': current_template.build_ext,
         'bdist_egg': bdist_egg,
@@ -78,7 +78,7 @@ setup(
         find_packages('src-python_openzwave', exclude=["scripts"]),
   install_requires = install_requires(),
   description = 'python_openzwave is a python wrapper for the openzwave c++ library.',
-  long_description = 'A full API to map the ZWave network in Python objects. Look at examples at : https://github.com/OpenZWave/python-openzwave',
+  long_description = 'A full API to map the ZWave network in Python objects. Look at examples at : https://github.com/ChristianKuehnel/python-openzwave',
   download_url = 'https://raw.githubusercontent.com/OpenZWave/python-openzwave/master/archives/python_openzwave-{0}.zip'.format(pyozw_version),
   keywords = [ 'openzwave', 'zwave' ],
   classifiers = [

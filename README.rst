@@ -18,7 +18,7 @@
 python-openzwave
 ================
 
-python-openzwave is a python wrapper for the openzwave c++ library : https://github.com/OpenZWave/open-zwave
+python-openzwave is a python wrapper for the openzwave c++ library : https://github.com/ChristianKuehnel/open-zwave
 
  * full manager implementation with options
  * an API to map the ZWave network in Python objects
@@ -53,7 +53,7 @@ python-openzwave 0.4.x is here !!!
         (venvX) pip install python_openzwave
     
 - The previous command try to install python_openzwave with the flavor 'shared'. 
-  If it can't find a precompiled library of openzwave, it will use the flavor 'embed' with sources downloaded from https://github.com/OpenZWave/python-openzwave/tree/master/archives.
+  If it can't find a precompiled library of openzwave, it will use the flavor 'embed' with sources downloaded from https://github.com/ChristianKuehnel/python-openzwave/tree/master/archives.
   You can change this using flavor option. 
   There is a bug in the package dependencies and flavors on some systems. You may need to install dependencies manualy :
  
@@ -73,11 +73,11 @@ python-openzwave 0.4.x is here !!!
 
 - Choose your flavor :
  
-    - embed : the default one. Download sources from https://github.com/OpenZWave/python-openzwave/tree/master/archives and
+    - embed : the default one. Download sources from https://github.com/ChristianKuehnel/python-openzwave/tree/master/archives and
       build them. Python_openzwave is statically build using a cythonized version of libopenzwave. No need to install cython.
     - shared : if you have install openzwave as module manually, you can link python_openzwave to it.
     - git : download sources from openzwave github and link statically to it.
-    - embed_shared : download sources from https://github.com/OpenZWave/python-openzwave/tree/master/archives, build and install as module on the system. 
+    - embed_shared : download sources from https://github.com/ChristianKuehnel/python-openzwave/tree/master/archives, build and install as module on the system. 
       Python_openzwave use it. Need root access to install openzwave libs.
     - git_shared : download sources from openzwave github, build and install them as module on the system.
       Python_openzwave use it. Need root access to install openzwave libs.
@@ -190,7 +190,7 @@ python-openzwave 0.4.x is here !!!
 
  - Old installation process is deprecated and reserved for python-openzwave-developers and alternatives machines.
 
- - Please report your successful installations here : https://github.com/OpenZWave/python-openzwave/issues/73
+ - Please report your successful installations here : https://github.com/ChristianKuehnel/python-openzwave/issues/73
 
 Support
 =======

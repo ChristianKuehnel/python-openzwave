@@ -24,7 +24,7 @@ Get sources
     git clone https://github.com/openzwave/python-openzwave.git
 
     cd python-openzwave
-    git clone git://github.com/OpenZWave/open-zwave.git openzwave
+    git clone git://github.com/ChristianKuehnel/open-zwave.git openzwave
 
     cd openzwave
     git checkout Dev
@@ -51,7 +51,7 @@ From a Command Prompt, install it :
 
     python setup install --dev
 
-Reference for 0.3.X : https://github.com/OpenZWave/python-openzwave/issues/53
+Reference for 0.3.X : https://github.com/ChristianKuehnel/python-openzwave/issues/53
 
 Cygwin
 ------
